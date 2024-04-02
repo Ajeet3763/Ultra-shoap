@@ -1,0 +1,211 @@
+@media (max-width: 767px) {
+    .purchaseButton {
+        width: 53%;
+        height: auto;
+    }
+
+    .logoImg {
+        width: 38%;
+    }
+
+    .leftSideDicription {
+        width: 89%;
+        left: 6%;
+        top: 19%;
+        gap: 19px;
+    }
+
+    .firstSection {
+        flex-wrap: wrap;
+    }
+
+    .right_sideImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .backgroundImage {
+        height: 62vh;
+    }
+
+    .firstOneImgae {
+        left: 5%;
+        top: 204px;
+    }
+
+    .thirdOneImgae {
+        left: 51%;
+        top: 54px;
+    }
+
+    .secondOneImgae {
+        left: 29%;
+        top: 127px;
+    }
+.secondSection p {
+    width: 100%;
+}
+.nav_newItems{
+    margin: 19px auto 10px auto;
+}
+.first_product  p{
+    font-size: 12px;
+}
+.allSectionPadding {
+    padding: 20px 0px;
+}
+.main_section{
+    font-size: 24px;
+}
+.forthHeader p{
+    font-size: 12px;
+}
+.forthHeader{
+    margin-bottom: 0;
+}
+.forthDivision {
+    width: 96%;
+}
+.main_section {
+    font-size: 20px;
+}
+.shop-section{
+    flex-wrap: wrap;
+} 
+.shopLeft{
+    width: 100%;
+    gap: 5px;
+}
+.shopRight{
+    width: 100%;
+    margin-top: 10px;
+}
+.layoutText{
+    font-size: 15px;
+}
+.viewMoreBtn{
+    width: 56%;
+    font-size: 12px;
+    padding: 6px;
+    margin: auto;
+}
+.bg-forth{
+    width: 100%;
+    height: auto;
+}
+.sevenHeader {
+    width: 100%;
+}
+.newPageHeading {
+    font-size: 22px;
+}
+.purchaseButtonSecondNow button{
+    width: 54%;
+    padding: 6px;
+    font-size: 13px;
+}
+
+.sixth_section_woow p{
+    font-size: 9px;
+    letter-spacing: 0px;
+}
+.main_section {
+    font-size: 14px;
+}
+.nineHeader {
+    width: 100%;
+}
+.newPageHeadingFooter {
+    font-size: 22px;
+}
+.purchaseButtonSecondNow button{
+    width: 54%;
+}
+.banner_content{
+    padding: 0;
+}
+.banner_content h4{
+    font-size: 22px;
+}
+.sixth_section  p{
+    font-size: 13px;
+}
+.seven_section p{
+    font-size: 13px;
+    padding-right: 19px;
+}
+.bannerImg{
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: -34px;
+    width: 35%;
+}
+.bannerImg img {
+    width: 100%;
+    height: auto;
+}
+.bnner_section{
+    height: 200px;
+}
+.wowFactor{
+    width: 22%;
+    position: absolute;
+    right: -4px;
+    bottom: 0;
+}
+.wowFactor img{
+    width: 100%;
+    height: auto;
+}
+.banner_content p{
+    padding: 0px;
+}
+.faQdiv{
+    padding: 12px 5px;
+    margin-top: 12px;
+}
+.forthHeader img{
+    width: 13%;
+}
+.leftWebpk {
+    width: 100%;
+}
+.nxtWeb{
+    width: 90%;
+}
+.rightWebpk {
+    width: 100%;
+    margin: 12px auto;
+}
+.main_heading{
+    width: 100%;
+    text-align: start;
+}
+}
+
+
+
+@media (min-width: 992px) {
+    .humburg {
+        display: none;
+    }
+
+    .desktops_view {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .mobile_view {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .nav_page_mob {
+        display: flex;
+        align-items: center;
+        padding: 10px !important;
+    }
+}

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="icon" href="images/task.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owlCarousel.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- --------------------------------Header section start here-------------------------------- -->
+    <header class="page-header nav_page_mob">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark header-flexFirst">
+                <div class="logoImg">
+                    <img src="./images/Logo.png" alt="Logo Icon">
+                </div>
+                <div class="collapse navbar-collapse header-flexFirstLine" id="navbarCollapse">
+                    <div class="nav-item">
+                        <a href="#" class="nav-item nav-link fs-16 fw-400 colors firstColor">Home
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#" class="nav-item nav-link fs-16 fw-400 colors firstColor px-3">Demo
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#" class="nav-item nav-link fs-16 fw-400 colors firstColor">Features
+                        </a>
+                    </div>
+                </div>
+                <div class="purchaseButton">
+                    <button>Purchase now</button>
+                </div>
+            </nav>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="humburg">&#9776;</span>
+        </nav>
+
+        <!-- mobile_sidebar_start -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="mobileNav">
+                <div class="NavItmsMBL">
+                    <a href="#" class=" nav-link fs-16 fw-400">Home
+                    </a>
+                </div>
+                <div class="NavItmsMBL">
+                    <a href="#" class=" nav-link fs-16 fw-400 px-3">Demo
+                    </a>
+                </div>
+                <div class="NavItmsMBL">
+                    <a href="#" class=" nav-link fs-16 fw-400">Features
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- mobile_sidebar_end -->
+        </div>
+    </header>
+
+    <!-- <div class="video-overlay header-text new">
+    </div> -->
+
+    <!-- --------------------------------Banner section start here-------------------------------- -->
+
+    <!-- -- --------------------------------First page start here-------------------------------- -->
+    <div class="backgroundImage">
+        <div class="firstSection">
+            <div class="leftSideDicription">
+                <div class="main_heading">
+                    <h1>Modern & Minimal</h1>
+                    <h3>WooCommerce Theme</h3>
+                </div>
+                <div class="tagLine">
+                    <div class="tabsPages">
+                        <span>08+</span>
+                        <p>Home Pages</p>
+                    </div>
+                    <div class="tabsPages">
+                        <span>07+</span>
+                        <p>Header Style</p>
+                    </div>
+                    <div class="tabsPages">
+                        <span>02</span>
+                        <p>Shop Pages</p>
+                    </div>
+                    <div class="tabsPages">
+                        <span>06</span>
+                        <p>Product pages</p>
+                    </div>
+                </div>
+                <div class="purchaseButtonSecond">
+                    <button>Purchase Now</button>
+                </div>
+                <div class="contentLast">
+                    <p class="purchaseItm">Price $<span>49.00</span><span class="saveRs">save 35%</span></p>
+                    <p class="regularPrice">(Regular Price) <span>$75.00</span></p>
+                </div>
+            </div>
+            <div class="right_sideImage">
+                <!-- <div class="allSectionImage"> -->
+                <img src="./images/thirdProduct.png" alt="Product Image" class="firstOneImgae">
+                <img src="./images/secondProduct.png" alt="Product Image" class="secondOneImgae">
+                <img src="./images/firstProduct.png" alt="Product Image" class="thirdOneImgae">
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- -- --------------------------------First page end here-------------------------------- -->
+    <!-- -- --------------------------------Second page start here-------------------------------- -->
+    <div class="container">
+        <div class="allSectionPadding">
+            <div class="secondSection">
+                <h3>All Demos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus sequi quaerat accusamus
+                    officiis! Neque facere provident aspernatur eius totam aliquid</p>
+            </div>
+            <div class="nav_newItems">
+                <nav class="nav_sliders">
+                    <div class="nav nav-tabs second_section_new" id="nav-tab" role="tablist">
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#All_button"
+                            type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#shose_button"
+                            type="button" role="tab" aria-controls="nav-home" aria-selected="true">Shose</button>
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#furniture_button" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Furniture</button>
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="supermarket_button"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Supermarket</button>
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#organic_button"
+                            type="button" role="tab" aria-controls="nav-home" aria-selected="true">Organic</button>
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#electric_button" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Electric</button>
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#houseware_button" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Houseware</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#glasses_button" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">Glasses</button>
+                    </div>
+                </nav>
+                <div class="tab-content newproImg" id="nav-tabContent">
+                    <div class="tab-pane fade show" id="All_button" role="tabpanel" aria-labelledby="nav-home-tab">
+                        All</div>
+                    <div class="tab-pane fade show" id="shose_button" role="tabpanel" aria-labelledby="nav-home-tab">
+                        ...</div>
+                    <div class="tab-pane fade show" id="furniture_button" role="tabpanel"
+                        aria-labelledby="nav-home-tab">
+                        ...</div>
+                    <div class="tab-pane fade show active imgProperty" id="supermarket_button" role="tabpanel"
+                        aria-labelledby="nav-home-tab">
+                        <div class="product_images">
+                            <div class="first_product">
+                                <img src="./images/pr_one.png" alt="Product One" />
+                                <p>Default</p>
+                            </div>
+                            <div class="first_product">
+                                <img src="./images/pr_two.png" alt="Product One" />
+                                <p>Shoes</p>
+                            </div>
+                            <div class="first_product">
+                                <img src="./images/pr_three.png" alt="Product One" />
+                                <p>Furniture</p>
+                            </div>
+                            <div class="first_product">
+                                <img src="./images/pr_four.png" alt="Product One" />
+                                <p>Organic</p>
+                            </div>
+                            <div class="first_product">
+                                <img src="./images/pr_five.png" alt="Product One" />
+                                <p>Electric</p>
+                            </div>
+                            <div class="first_product">
+                                <img src="./images/pr_six.png" alt="Product One" />
+                                <p>Houseware</p>
+                            </div>
+                            <div class="first_product">
+                                <img src="./images/pr_seven.png" alt="Product One" />
+                                <p>Supermarket</p>
+                            </div>
+                            <div class="first_product">
+                                <img src="./images/pr_eight.png" alt="Product One" />
+                                <p>Glasses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="organic_button" role="tabpanel" aria-labelledby="nav-home-tab">
+                        ...</div>
+                    <div class="tab-pane fade show" id="electric_button" role="tabpanel" aria-labelledby="nav-home-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="houseware_button" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="glasses_button" role="tabpanel" aria-labelledby="nav-contact-tab">...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -- --------------------------------Second page end here-------------------------------- -->
+    <!-- -- --------------------------------third page start here-------------------------------- -->
+    <div class="allSectionPaddingBannerBG">
+        <div class="container">
+            <div class="bnner_section">
+                <div class="bannerImg">
+                    <img src="./images/banner.png" alt="banner Image" />
+                </div>
+                <div class="banner_content">
+                    <h4>Unlimited Color</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim provident aspernatur
+                        harum, quasi natus? Velit, at na</p>
+                </div>
+                <div class="wowFactor">
+                    <img src="./images/wow_img.png" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -- --------------------------------third page end here-------------------------------- -->
+    <!-- -- --------------------------------forth page start here-------------------------------- -->
+    <div class="bg-third">
+        <div class="container">
+            <div class="allSectionPadding">
+                <div class="forthHeader">
+                    <h4 class="main_section"><span>07+</span>customizable headers styles</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nihil reprehenderit eius
+                    </p>
+                </div>
+                <div class="forthDivision">
+                    <div class="forthSectionBigImg">
+                        <img src="./images/forth_layes_one.png" alt="Image" />
+                    </div>
+                    <div class="forthSectionBigImg">
+                        <img src="./images/forth_layes_two.png" alt="Image" />
+                    </div>
+                    <div class="forthSectionBigImg">
+                        <img src="./images/forth_layes_three.png" alt="Image" />
+                    </div>
+                    <div class="forthSectionBigImg">
+                        <img src="./images/forth_layes_four.png" alt="Image" />
+                    </div>
+                    <div class="forthSectionBigImg">
+                        <img src="./images/forth_layes_five.png" alt="Image" />
+                    </div>
+                    <div class="forthSectionBigImg">
+                        <img src="./images/forth_layes_six.png" alt="Image" />
+                    </div>
+                    <div class="forthSectionBigImg">
+                        <img src="./images/forth_layes_seven.png" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -- --------------------------------forth page end here-------------------------------- -->
+    <!-- -- --------------------------------fifth page start here-------------------------------- -->
+    <div class="allSectionPaddingBannerBG">
+        <div class="container">
+            <div class="allSectionPadding">
+                <div class="forthHeader">
+                    <h4 class="main_section text-black"><span>02</span>Diffrent Shop Style Layouts</h4>
+                </div>
+                <div class="shop-section ">
+                    <div class="shopLeft">
+                        <p class="layoutText">Layout With Slidebar</p>
+                        <p class="layoutPara">exclusive features for boosting sales & shopping experience by helping
+                            customers filter products
+                            by category.</p>
+                        <button class="viewMoreBtn">View now</button>
+                    </div>
+                    <div class="shopRight">
+                        <img src="./images/fifth_first.png" alt="Shop Img" />
+                    </div>
+                </div>
+                <div class="shop-section newSec">
+                    <div class="shopRight">
+                        <img src="./images/fifth_second.png" alt="Shop Img" />
+                    </div>
+                    <div class="shopLeft">
+                        <p class="layoutText">Layout with Filter button</p>
+                        <p class="layoutPara">you can use full width layout for the shop page. All filter widgest
+                            displayat
+                            the top of page, under a Filter button. It hooks Professional</p>
+                        <button class="viewMoreBtn">View now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -- --------------------------------fifth page end here-------------------------------- -->
+    <!-- -- --------------------------------sixth page start here-------------------------------- -->
+    <div class="bg-BCk">
+        <div class="container">
+            <div class="allSectionPadding">
+                <div class="forthHeader">
+                    <h4 class="main_section text-black" style="text-transform: uppercase;">varied product detail layouts
+                    </h4>
+                    <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nihil
+                        reprehenderit eius
+                    </p>
+                </div>
+                <div class="product_new">
+                    <div class="sixth_section">
+                        <img src="./images/sixth_first.png" alt="product_images" />
+                        <p>vertical thumbnail slider</p>
+                    </div>
+                    <div class="sixth_section ">
+                        <img src="./images/sixth_second.png" alt="product_images" />
+                        <p>horizontal thumbnail slider</p>
+                    </div>
+                    <div class="sixth_section">
+                        <img src="./images/sixth_third.png" alt="product_images" />
+                        <p>horizontal thumbnail slider</p>
+                    </div>
+                    <div class="sixth_section">
+                        <img src="./images/sixth_forth.png" alt="product_images" />
+                        <p>horizontal thumbnail slider</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="allSectionPadding">
+                    <div class="forthHeader">
+                        <h4 class="main_section text-black" style="text-transform: uppercase;"><span>02</span>Variable
+                            Product Layouts</h4>
+                        <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nihil
+                            reprehenderit eius
+                        </p>
+                    </div>
+                    <div class="product_new">
+                        <div class="seven_section">
+                            <img src="./images/seven_img.png" alt="product_images" />
+                            <p class="">Use the dropdown option</p>
+                            <button class="viewMoreBtn newMargin">view now</button>
+                        </div>
+                        <div class="seven_section">
+                            <img src="./images/eight_img.png" alt="product_images" />
+                            <p class="">Use color/image swatches</p>
+                            <button class="viewMoreBtn newMargin">view now</button>
+                        </div>
+                        <div class="sixth_section">
+                            <img src="./images/nine_img.png" alt="product_images" />
+                            <p class="">slider thumbnail simple</p>
+                        </div>
+                        <div class="sixth_section">
+                            <img src="./images/ten_img.png" alt="product_images" />
+                            <p class="">slider thumbnail variable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="allSectionPadding">
+                <div class="forthHeader" style="margin: 0;">
+                    <img src="./images/woo_img.png" alt="Woow icon" />
+                    <h4 class="main_section text-black">WooComerce Layouts
+                    </h4>
+                </div>
+                <div class="product_new">
+                    <div class="sixth_section_woow">
+                        <img src="./images/wooImg.png" alt="product_images" />
+                        <p>Shop Page</p>
+                    </div>
+                    <div class="sixth_section_woow">
+                        <img src="./images/wooImg2.png" alt="product_images" />
+                        <p>Shop Page</p>
+                    </div>
+                    <div class="sixth_section_woow">
+                        <img src="./images/wooImg3.png" alt="product_images" />
+                        <p>Shop Page</p>
+                    </div>
+                </div>
+            </div>
+            <div class="allSectionPadding">
+                <div class="wpBck">
+                    <div class="leftWebpk">
+                        <img src="./images/layer-top.png" alt="Layer Image">
+                        <p class="webPK">WPBakery Page Builder</p>
+                        <p class="nxtWeb">WPBakery Page Builder will help you create a website easier than ever. you do not need to
+                            remember any shortcodes. it will make your work much more enjoyable and also save your time.
+                        </p>
+                    </div>
+                    <div class="rightWebpk">
+                        <img src="./images/neWLAYER.png" alt="layer image">
+                    </div>
+                </div>
+                <div class="wpBck">
+                    <div class="rightWebpk">
+                        <img src="./images/leftLyares.png" alt="layer image">
+                    </div>
+                    <div class="leftWebpk">
+                        <h3>Included</h3>
+                        <p>Social Login Plugin</p>
+                        <p>Choose from nine awesome color pre-define color and use the power of ultra Shop to make them
+                            your own.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -- --------------------------------sixth page end here-------------------------------- -->
+    <!-- -- --------------------------------seventh page start here-------------------------------- -->
+    <div class="bg-forth">
+        <div class="video-overlay header-text new">
+        </div>
+        <div class="container" style="height: 100%;">
+            <div class="allSectionPadding sectionHeight">
+                <div class="sevenHeader">
+                    <h4 class="newPageHeading">poerfull admin panel
+                    </h4>
+                    <p class="text-white">With UltraShop you can build the site easily without coding kno
+                    </p>
+                    <div class="purchaseButtonSecondNow">
+                        <button>Purchase ultrashop Now</button>
+                    </div>
+                    <div class="contentLast" style="gap: 10px;">
+                        <p class="purchaseItm" style="margin-top: 10px;">Price $<span>49.00</span><span
+                                class="saveRs">save 35%</span></p>
+                        <p class="regularPrice">(Regular Price) <span>$75.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -- --------------------------------seventh page end here-------------------------------- -->
+    <!-- -- --------------------------------eight page end here-------------------------------- -->
+    <div class="container">
+        <div class="allSectionPadding">
+            <div class="forthHeader">
+                <h4 class="main_section text-black fw-400">UltraShop Features
+                </h4>
+                <p class="text-black">UltraShop has a lot of features, so it will take you too much time to read about
+                    features we present to you list of the main features You can check our demo to see all features.
+                </p>
+            </div>
+            <div class="product_new">
+                <div class="sixth_section_woow">
+                    <img src="./images/woocmn.png" alt="product_images" />
+                    <p>WPBakery Page Builder</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooTwo.png" alt="product_images" />
+                    <p>WooCommerce Integration</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooThree.png" alt="product_images" />
+                    <p>One Click Demo Installation</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooFour.png" alt="product_images" />
+                    <p>Contact Form 7</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooFive.png" alt="product_images" />
+                    <p>SEO Friendly</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooSix.png" alt="product_images" />
+                    <p>Unlimited Color</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooSeven.png" alt="product_images" />
+                    <p>High Speed Performance</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooEight.png" alt="product_images" />
+                    <p>WPML Compatible</p>
+                </div>
+                <div class="sixth_section_woow">
+                    <img src="./images/wooNine.png" alt="product_images" />
+                    <p>Slider Revolution</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -- --------------------------------eight page end here-------------------------------- -->
+    <!-- -- --------------------------------nine page start here-------------------------------- -->
+    <div class="bg-BCk">
+        <div class="container">
+            <div class="allSectionPadding">
+                <div class="forthHeader">
+                    <h4 class="main_section text-black lernsec" style="text-transform: uppercase;">Learn Why Wordpress
+                        Merchants
+                        Prefer Using Themeatlas
+                    </h4>
+                </div>
+                <div class="banner-slider owl-carousel">
+                    <div class="banner-slider_item">
+                        <div class="bannerBorder">
+                            <img src="./images/quote.png" alt="Quote Image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo commodi maiores
+                                quibusdam sapiente doloribus ad sequi blanditiis non amet rem necessitatibus nobis,
+                                officia dolor error cumque, nostrum a vitae.</p>
+                            <div class="clientImag">
+                                <img src="./images/clintImg.png" alt="Client Image" />
+                                <div class="clientName">
+                                    <p>Ranjan Chaudhary</p>
+                                    <p style="color: rgba(0, 0, 255, 0.42);font-weight: 600;">CEO, AutoMaxi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-slider_item">
+                        <div class="bannerBorder">
+                            <img src="./images/quote.png" alt="Quote Image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo commodi maiores
+                                quibusdam sapiente doloribus ad sequi blanditiis non amet rem necessitatibus nobis,
+                                officia dolor error cumque, nostrum a vitae.</p>
+                            <div class="clientImag">
+                                <img src="./images/clintImg.png" alt="Client Image" />
+                                <div class="clientName">
+                                    <p>Ranjan Chaudhary</p>
+                                    <p style="color: rgba(0, 0, 255, 0.42);font-weight: 600;">CEO, AutoMaxi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-slider_item">
+                        <div class="bannerBorder">
+                            <img src="./images/quote.png" alt="Quote Image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo commodi maiores
+                                quibusdam sapiente doloribus ad sequi blanditiis non amet rem necessitatibus nobis,
+                                officia dolor error cumque, nostrum a vitae.</p>
+                            <div class="clientImag">
+                                <img src="./images/clintImg.png" alt="Client Image" />
+                                <div class="clientName">
+                                    <p>Ranjan Chaudhary</p>
+                                    <p style="color: rgba(0, 0, 255, 0.42);font-weight: 600;">CEO, AutoMaxi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-slider_item">
+                        <div class="bannerBorder">
+                            <img src="./images/quote.png" alt="Quote Image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo commodi maiores
+                                quibusdam sapiente doloribus ad sequi blanditiis non amet rem necessitatibus nobis,
+                                officia dolor error cumque, nostrum a vitae.</p>
+                            <div class="clientImag">
+                                <img src="./images/clintImg.png" alt="Client Image" />
+                                <div class="clientName">
+                                    <p>Ranjan Chaudhary</p>
+                                    <p style="color: rgba(0, 0, 255, 0.42);font-weight: 600;">CEO, AutoMaxi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="allSectionPadding">
+                <div class="forthHeader">
+                    <h4 class="main_section text-black" style="text-transform: uppercase;">
+                        Frequently Asked Questions
+                    </h4>
+                    <p class="text-black m-0">Here are some of the frequently asked question</p>
+                </div>
+
+                <div class="faQdiv">
+                    <div class="accordion" id="accordionExample">
+                        <div class="">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button desings" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <strong style="font-size: 20px; font-weight: 500;">What is the best
+                                        theme for WooCommerce?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body faqpara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                    repellat rem rerum asperiores veritatis obcaecati, maxime ex dolorem
+                                    velit sequi harum tempore, cum minus atque dolores quaerat dolorum
+                                    veniam modi!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button desings collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    <strong style="font-size: 20px; font-weight: 500"> How do I choose a
+                                        WooCommerce theme? </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body faqpara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                    repellat rem rerum asperiores veritatis obcaecati, maxime ex dolorem
+                                    velit sequi harum tempore, cum minus atque dolores quaerat dolorum
+                                    veniam modi!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button desings collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <strong style="font-size: 20px; font-weight: 500"> Can you use
+                                        WooCommerce with any theme? </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body faqpara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                    repellat rem rerum asperiores veritatis obcaecati, maxime ex dolorem
+                                    velit sequi harum tempore, cum minus atque dolores quaerat dolorum
+                                    veniam modi!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button desings collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
+                                    aria-controls="collapsefour">
+                                    <strong style="font-size: 20px; font-weight: 500"> What are the Best
+                                        Free WooCommerce Themes? </strong>
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body faqpara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                    repellat rem rerum asperiores veritatis obcaecati, maxime ex dolorem
+                                    velit sequi harum tempore, cum minus atque dolores quaerat dolorum
+                                    veniam modi!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="accordion-header" id="headingfive">
+                                <button class="accordion-button desings collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false"
+                                    aria-controls="collapsefive">
+                                    <strong style="font-size: 20px; font-weight: 500">How do I use and
+                                        Install a WooCommerce WordPress Theme?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body faqpara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                    repellat rem rerum asperiores veritatis obcaecati, maxime ex dolorem
+                                    velit sequi harum tempore, cum minus atque dolores quaerat dolorum
+                                    veniam modi!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="allSectionPadding">
+                <h3>Related Item</h3>
+                <section class="icones">
+                    <div class="icones-carousel d-flex">
+                        <div class="item">
+                            <img src="./images/last.png" alt="Banner Image">
+                        </div>
+                        <div class="item">
+                            <img src="./images/last.png" alt="Banner Image">
+                        </div>
+                        <div class="item">
+                            <img src="./images/last.png" alt="Banner Image">
+                        </div>
+                        <div class="item">
+                            <img src="./images/last.png" alt="Banner Image">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- -- --------------------------------nine page end here-------------------------------- -->
+
+        <div class="bg-firth">
+            <div class="container" style="height: 100%;">
+                <div class="allSectionPadding sectionHeight ">
+                    <div class="nineHeader">
+                        <h4 class="newPageHeadingFooter">Create Your Shop With UltraShop.
+                        </h4>
+                        <div class="purchaseButtonSecondNow">
+                            <button class="p-3">Purchase ultrashop Now</button>
+                        </div>
+                        <div class="contentLast" style="gap: 10px;">
+                            <p class="purchaseItm" style="margin-top: 10px;color:white;">Price $<span>49.00</span><span
+                                    class="saveRs">save 35%</span></p>
+                            <p class="regularPrice" style="color: white;">(Regular Price) <span>$75.00</span></p>
+                        </div>
+                        <p class="text-white lastLine">© 2020<span class="redFooter"> UltraShop</span>. All Rights
+                            Reserved.Theme by <span class="redFooter"> Cosmo Solutions Pvt Ltd.</span>
+                    </div>
+                    <div class="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end======================= -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+            integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            $('.icones-carousel').slick({
+                nextArrow: '<i class="fas fa-chevron-right slick-next"></i>',
+                prevArrow: '<i class="fas fa-chevron-left slick-prev"></i>',
+                autoplay: false,
+                autoplaySpeed: 2500,
+                dots: false,
+                arrows: true,
+                infinite: true,
+                speed: 500,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                responsive: [{
+                    breakpoint: 700,
+                    settings: {
+                        dots: false,
+                        arrows: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }]
+            });
+
+        </script>
+</body>
+
+</html>
